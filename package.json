@@ -1,0 +1,28 @@
+{
+  "name": "twowind.discord.kanban",
+  "version": "0.0.1",
+  "description": "discord kanban bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/two-wind/twowind.discord.kanban.git"
+  },
+  "author": "Lee Shing Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/two-wind/twowind.discord.kanban/issues"
+  },
+  "homepage": "https://github.com/two-wind/twowind.discord.kanban#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  }
+}
